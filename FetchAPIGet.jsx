@@ -7,9 +7,9 @@ function App() {
   useEffect(() => {
     // fetch data here
     fetch('https://chuckthompsonx.com')
-      .then((resp) => { resp.json() })
-      .then((json) => { setData(json) })
-      .catch((err) => { console.log(err.message) });
+      .then((resp) => { resp.json(); })
+      .then((json) => { setData(json); })
+      .catch((err) => { console.log(err.message); });
   }, []);
 
   return (
