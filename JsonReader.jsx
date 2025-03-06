@@ -8,11 +8,11 @@ function JsonReader() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("data.json");
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
+        const resp = await fetch("data.json");
+        if (!resp.ok) {
+          throw new Error(`HTTP error! status: ${resp.status}`);
         }
-        const json = await response.json();
+        const json = await resp.json();
         
         setData(json);
         setLoading(false);
