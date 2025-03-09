@@ -16,7 +16,9 @@ function App() {
   return (
     <div>
       <ul>
-        {posts.map(post => (<li key={post.id}>{post.content}</li>))}
+        {posts.map(post => (
+          <li key={post.id}>{post.content}</li>
+        ))}
       </ul>
     </div>
   );
