@@ -13,7 +13,7 @@ const ChildComponent = (message) => {
 // profile object data
 const chuckProfile = {
   name: "Chuck",
-  age: 35,
+  age: 40,
   isMember: true,
   hobbies: ["Coding", "Baseball"],
 };
