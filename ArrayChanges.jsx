@@ -26,7 +26,7 @@ function ArrayChanges() {
         {elements.map((element) => (
           <li key={element.id}>
             {element.name}
-            <button onClick={() => removeElement(element.id)}>Remove</button>
+            <button onClick={() => removeElement(element.id)}>Remove Element</button>
           </li>
         ))}
       </ul>
