@@ -26,7 +26,7 @@ function JsonReader() {
   }, []);
 
   if (loading) {
-    return <p>Loading data...</p>;
+    return <p>Data loading...</p>;
   }
 
   if (error) {
