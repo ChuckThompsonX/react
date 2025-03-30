@@ -11,7 +11,7 @@ const ChangeColor = () => {
   });
 
   const changeColor = () => {
-    // randomly select a color and set the selected color state
+    // randomly select a color and set selected color state
     if (colors.length > 0) {
       const index = Math.floor(Math.random() * colors.length);
 
