@@ -10,7 +10,7 @@ function JsonReader() {
       try {
         const resp = await fetch("data.json");
         if (!resp.ok) {
-          throw new Error(`HTTP error! status: ${resp.status}`);
+          throw new Error(`HTTP error! Status: ${resp.status}`);
         }
         const json = await resp.json();
         
