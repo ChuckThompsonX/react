@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      {data ? {JSON.stringify(data, null, 2)} : 'Data loading...'}
+      {data ? {JSON.stringify(data, null, 2)} : 'Loading data...'}
     </div>
   );
 }
