@@ -9,7 +9,7 @@ const AccessProfile = () =>{
       {isAuthenticated ? (
         <h2>{AnotherComponent}</h2>
       ) : (
-        <button onClick={() => setIsAuthenticated(true)}>Access Profile</button>
+        <button onClick={() => setIsAuthenticated(true)}>Access User Profile</button>
       )}
     </div>
   );
