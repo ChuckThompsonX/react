@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-// most up-to-date lib for react
 // npm install axios
 
 function App() {
