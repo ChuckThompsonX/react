@@ -8,7 +8,7 @@ const CarUseState = () => {
   });
 
   const changeColor = () => {
-    // typically when state is updated, the entire state gets overwritten
+    // typically when the state is updated, the entire state gets overwritten
     // for instance, if we only changed the color it will remove the make and model from the state
     // pass a function into the setCar call which receives the entire current car state 
     // by spreading the carState object and overwriting only color
